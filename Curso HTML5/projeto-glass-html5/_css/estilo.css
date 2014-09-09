@@ -30,23 +30,33 @@
 	}	
 
 	header#cabecalho h1{
-		font-family: 'FonteLogo';
+		font-family: FonteLogo;
 		font-size: 30pt;
 		color:#606060;
 		text-shadow:1px 1px 1px rgba(0,0,0,.6);
 		padding: 0px;
-		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 
 
 	header#cabecalho h2{
-		font-family: 'Titillium Web', sans-serif; /*copiado e colado - fonte direto do diretório do google fontes*/
+		font-family: 'FonteLogo', sans-serif; /*copiado e colado - fonte direto do diretório do google fontes*/
 		color: #888888;
 		font-size: 15pt;
 		padding: 0px;
-		margin-top:0px ;
+		margin-bottom:0px ;
 	}
 
+	header#cabecalho h3{
+		font-size: 12px;
+		color: #606060;
+
+	}
+
+	.direira{
+		text-align: right;
+
+	}
 
 
 	body{
@@ -149,6 +159,35 @@
 		
 	}
 
+	article#noticia-principal h2{
+		font-size: 12pt;
+		color:#606060;
+		background-color: #dddddd;
+		padding: : 5px 0px 5px 10px;
+		margin: 10px 0px 10px 0px; 
+	}
+
+	header#cabecalho-artigo h1{
+		font-family: 'FonteLogo', sans-serif;
+		font-size:20pt;
+		color: #606060;
+	}
+
+
+	header#cabecalho-artigo h2{
+		font-size: 13pt;
+		color:#cecece;
+		background-color: #ffffff;
+		margin-bottom: 0px;
+	}
+
+	
+	header#cabecalho-artigo h3{
+
+
+
+	}
+
 	table#tabelaspec{
 		border: 1px solid #dddddd;
 		border-spacing: 0px;
@@ -156,9 +195,33 @@
 
 	table#tabelaspec td{
 		border: 1px solid #dddddd;
-		
+		padding: 10px;
+		text-align:center;
+		}
+
+	table#tabelaspec td.ce{
+		color: #ffffff;
+		background-color: #606060;
+		vertical-align: top;
+	}
+	
+	table#tabelaspec td.cd{
+		background-color: #cecece;
+
+	}
+	table#tabelaspec caption{
+		color: #888888;
+		font-size: 13pt;
+		font-weight: bolder; 
 	}
 
+	table#tabelaspec caption span{
+		display: block;
+		float: right;
+		color:#000000;
+		font-size: 8pt;
+		margin-top: 8px;
+	}
 	aside#lateral{
 		display: block;
 		width: 380px;
