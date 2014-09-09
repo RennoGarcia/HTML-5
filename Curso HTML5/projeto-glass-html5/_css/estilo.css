@@ -1,5 +1,10 @@
 @charset="UTF-8";
-	
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web); /*copiado e colado - fonte direto do diretório do google fontes*/
+@font-face{
+	font-family: 'FonteLogo';
+	scr:url("../_fontes/bubblegum-sans-regular.otf");	
+}	
+
 	p{
 	text-align:justify; 
 	text-indent:50px
@@ -9,23 +14,24 @@
 		
 		border-bottom: 1px #606060 solid;
 		height: 150px;
-		background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px ;
+		background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 85px ;
 		
 
 	}
+
 
 	header#cabecalho img#icone{
 		position: absolute;
 		padding-left: 730px;
 		/*left: 720px;*/
-		top: 70px;
+		top: 75px;
 		float: right;
 
 	}	
 
 	header#cabecalho h1{
-		font-family:  Arial, sans-serif;
-		font-size: 30px;
+		font-family: 'FonteLogo';
+		font-size: 30pt;
 		color:#606060;
 		text-shadow:1px 1px 1px rgba(0,0,0,.6);
 		padding: 0px;
@@ -34,9 +40,9 @@
 
 
 	header#cabecalho h2{
-		font-family: Arial, sans-serif;
+		font-family: 'Titillium Web', sans-serif; /*copiado e colado - fonte direto do diretório do google fontes*/
 		color: #888888;
-		font-size: 15px;
+		font-size: 15pt;
 		padding: 0px;
 		margin-top:0px ;
 	}
@@ -134,4 +140,40 @@
 
 	}
 
- 
+	section#corpo{
+		display: block;
+		width: 470px;
+		float: left;
+		border-right: 1px solid #606060; 
+		padding-right: 15px;
+		
+	}
+
+	table#tabelaspec{
+		border: 1px solid #dddddd;
+		border-spacing: 0px;
+	}
+
+	table#tabelaspec td{
+		border: 1px solid #dddddd;
+		
+	}
+
+	aside#lateral{
+		display: block;
+		width: 380px;
+		float: right;
+		padding-left: 0px;
+		
+	}
+ 	
+ 	footer#rodape{
+ 		clear:both;
+		border-top: 1px solid #606060; 
+
+ 	}
+
+ 	footer#rodape p{
+ 		text-align: center;
+
+ 	}
