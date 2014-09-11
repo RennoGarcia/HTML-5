@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web); /*copiado e colado - fonte direto do diretório do google fontes*/
 @font-face{
 	font-family:'FonteLogo';
-	src: url("../_fontes/bubblegum-sans-regular.otf");	
+	src: url("../_fonts/bubblegum-sans-regular.otf");	
 }	
 
 	p{
@@ -29,37 +29,54 @@
 	header#cabecalho img#icone{
 		position: absolute;
 		padding-left: 730px;
-		/*left: 720px;*/
 		top: 65px;
 		float: right;
+		margin-top: 10px;
 	}	
 
-	header#cabecalho  h1{
-		font-family: 'FonteLogo',sans-serif;
-		font-size: 30pt;
+	header#cabecalho h1{
+		font-family: 'FonteLogo', sans-serif;
+		font-size:30pt;
+		color: #606060;
+		text-shadow:1px 1px 1px rgba(0.0.0.0.6);
+		padding: 0px;
+		margin-bottom: 0px;
+	}	
+
+	header#cabecalho h2{
+		font-family: Arial, sans-serif;
+		color: #888888;
+		font-size: 15pt;
+		padding: 0px;
+		margin-top:0px ;
+	}	
+
+	/*FORMATAÇÃO ABAIXO DO CABEÇALHO- abaixo da finha de divisao de conteúdo*/
+	header#cabecalho-artigo  h1{
+		font-family: 'FonteLogo', sans-serif; 
+		font-size: 25pt;
 		color:#606060;
 		text-shadow:1px 1px 1px rgba(0,0,0,.6);
 		padding: 0px;
 		margin-top: 0px;
 	}
 
-	header#cabecalho h2{
-		font-family: 'Titillium Web', sans-serif; /*copiado e colado - fonte direto do diretório do google fontes*/
+	header#cabecalho-artigo h2{
+		font-family: 'FonteLogo', sans-serif; /*copiado e colado - fonte direto do diretório do google fontes*/
 		color: #888888;
-		font-size: 15pt;
+		font-size: 13pt;
 		padding: 0px;
 		margin-bottom:0px ;
 		margin-top: -10px;
 	}
 
-	header#cabecalho h3{
+	header#cabecalho-artigo h3{
 		font-size: 12px;
 		color: #606060;
 	}
 
-	.direira{
+	.direita{
 		text-align: right;
-
 	}
 
 
@@ -172,26 +189,7 @@
 		margin: 10px 0px 10px 0px; 
 	}
 
-	header#cabecalho-artigo h1{
-		font-family: 'FonteLogo', sans-serif;
-		font-size: 20pt;
-		color: #606060;
-	}
-
-
-	header#cabecalho-artigo h2{
-		font-size: 13pt;
-		color:#cecece;
-		background-color: #ffffff;
-		margin-bottom: 0px;
-	}
-
 	
-	header#cabecalho-artigo h3{
-
-
-
-	}
 
 	table#tabelaspec{
 		border: 1px solid #dddddd;
@@ -240,8 +238,10 @@
 
 	aside#lateral h1{
 		font-family: 'FonteLogo',sans-serif;
-		font-size: 20pt;
+		font-size: 18pt;
 		color: #606060;
+		margin-top: 0px;
+
 	}
 
 	aside#lateral h2{
