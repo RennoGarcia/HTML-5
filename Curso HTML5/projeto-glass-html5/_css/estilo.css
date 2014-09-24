@@ -36,8 +36,8 @@
 
 	header#cabecalho h1{
 		font-family: 'FonteLogo', sans-serif;
-		font-size:30pt;
-		color: #606060;
+		font-size:30pt
+;		color: #606060;
 		text-shadow:1px 1px 1px rgba(0.0.0.0.6);
 		padding: 0px;
 		margin-bottom: 0px;
@@ -59,15 +59,17 @@
 		text-shadow:1px 1px 1px rgba(0,0,0,.6);
 		padding: 0px;
 		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
 	header#cabecalho-artigo h2{
 		font-family: 'FonteLogo', sans-serif; /*copiado e colado - fonte direto do diretório do google fontes*/
-		color: #888888;
-		font-size: 13pt;
+		color: #cecece;
+		font-size: 500pt;
 		padding: 0px;
 		margin-bottom:0px ;
 		margin-top: -10px;
+		background-color: #ffffff;
 	}
 
 	header#cabecalho-artigo h3{
@@ -187,13 +189,15 @@
 		padding: 5px 0px 5px 10px;
 		/*padding-left: 10px;*/
 		margin: 10px 0px 10px 0px; 
+
 	}
 
 	
 
 	table#tabelaspec{
-		border: 1px solid #dddddd;
+		border: 2px solid #c0c0c0;
 		border-spacing: 0px;
+
 	}
 
 	table#tabelaspec td{
