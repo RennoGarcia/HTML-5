@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Galeria de fotos em Javascript</title>
+<script type="text/javascript">
+function exibir(imagens) {
+	//Informamos o ID da tag IMG que irá exibir a galeria
+	var imagem = document.getElementById("galeria");
+
+	//Informamos as imagens a serem exibidas pela galeria
+	switch(imagens) {
+		case "01":
+		imagem.src = "1.jpg";
+		break;
+
+		case "02":
+		imagem.src = "2.jpg";
+		break;
+
+		case "03":
+		imagem.src = "3.jpg";
+		break;
+	}
+}
+</script>
+</head>
+<body onload="exibir('01')">
+Navegue na nossa galeria: 
+<a href="#" onclick="javascript: exibir('01');">01</a> -
+<a href="#" onclick="javascript: exibir('02');">02</a> -
+<a href="#" onclick="javascript: exibir('03');">03</a>
+<hr />
+<img id="galeria">
+</body>
+</html>
